@@ -1,0 +1,7 @@
+<h1>Reviews</h1>
+
+<% @product.reviews.each do |review|%>
+<ul>
+  <li><%= review.comment %></li>
+</ul>
+<% end %>
